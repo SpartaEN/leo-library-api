@@ -19,6 +19,10 @@ try {
 
 Checkout more [examples](https://github.com/SpartaEN/leo-library-api/tree/master/examples).
 
+## HMAC-SHA256 Signature
+
+Checkout [docs](https://github.com/SpartaEN/leo-library-api/tree/master/docs/HMAC-Signature.MD);
+
 ## LICENSE
 ```
 Copyright (C) 2020, Sparta_EN<nya@sparta-en.org>
