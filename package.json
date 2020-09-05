@@ -1,0 +1,30 @@
+{
+  "name": "leo-library-api",
+  "version": "1.0.0",
+  "description": "Leo library API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpartaEN/leo-library-api.git"
+  },
+  "keywords": [
+    "Leo Library",
+    "Seat Reservation"
+  ],
+  "author": "Sparta_EN",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SpartaEN/leo-library-api/issues"
+  },
+  "homepage": "https://github.com/SpartaEN/leo-library-api#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "moment": "^2.27.0",
+    "request": "^2.88.2",
+    "url-join": "^4.0.1",
+    "uuid": "^8.3.0"
+  }
+}
