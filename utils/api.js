@@ -95,6 +95,15 @@ class API {
             return data;
         });
     }
+    getUserDetails() {
+        return this.request({
+            url: urlJoin(this._address, 'rest/v2/user'),
+            method: 'GET',
+            qs: {
+                token: this._token
+            }
+        });
+    }
     getReservationsForCheckIn() {
         return this.request({
             url: urlJoin(this._address, 'rest/v2/user/reservations'),
@@ -187,6 +196,38 @@ class API {
             }
         });
     }
+    checkIn(reserveId) {
+        return this.request({
+            url: urlJoin(this._address, `rest/v2/checkIn/${reserveId}`),
+            method: 'GET',
+            qs: {
+                token: this._token
+            }
+        });
+    }
+    extendTime(reserveId) {
+        return this.request({
+            url: urlJoin(this._address, `rest/v2/timeExtend/${reserveId}`),
+            method: 'GET',
+            qs: {
+                token: this._token
+            }
+        });
+    }
+    // TODO: Submit extendTime
+    leave(reserveId) {
+        // TODO Return payload.message
+        // CheckIn again to get rid of this status
+        return this.request({
+            url: urlJoin(this._address, `rest/v2/leave/${reserveId}`),
+            method: 'GET',
+            qs: {
+                token: this._token
+            }
+        });
+    }
+    // TODO: Cancel reservation
+    // TODO: Delete reservation
 }
 
 module.exports = API;
