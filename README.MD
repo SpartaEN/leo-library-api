@@ -2,6 +2,10 @@
 
 API for leo library
 
+## Disclaimer
+
+Please **DO NOT** use for auto reservation. Please respect who get up early to reserve seats.
+
 ## Usage
 
 ```js
