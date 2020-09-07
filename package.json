@@ -11,8 +11,7 @@
     "url": "git+https://github.com/SpartaEN/leo-library-api.git"
   },
   "keywords": [
-    "Leo Library",
-    "Seat Reservation"
+    "Leo Library"
   ],
   "author": "Sparta_EN",
   "license": "GPL-3.0-or-later",
