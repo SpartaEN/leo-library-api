@@ -226,8 +226,15 @@ class API {
             }
         });
     }
-    // TODO: Cancel reservation
-    // TODO: Delete reservation
+    cancel(reserveId) {
+        return this.request({
+            url: urlJoin(this._address, `rest/v2/cancel/${reserveId}`),
+            method: 'GET',
+            qs: {
+                token: this._token
+            }
+        });
+    }
 }
 
 module.exports = API;

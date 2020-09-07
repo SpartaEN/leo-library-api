@@ -1,2 +1,2 @@
-1. Complate the checkin API
-2. Make sure reserving inside library used the same API as reserving outside
+1. Error handing should return code if presents
+2. Documentation
