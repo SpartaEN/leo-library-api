@@ -122,9 +122,9 @@ class API {
             }
         });
     }
-    getHistory() {
+    getHistory(limit = 10, page = 1) {
         return this.request({
-            url: urlJoin(this._address, 'rest/v2/history/1/10'),
+            url: urlJoin(this._address, `rest/v2/history/${page}/${limit}`),
             method: 'GET',
             qs: {
                 token: this._token
