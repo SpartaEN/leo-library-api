@@ -214,7 +214,16 @@ class API {
             }
         });
     }
-    // TODO: Submit extendTime
+    submitExtendTime(timeId) {
+        return this.request({
+            url: urlJoin(this._address, `rest/v2/extend`),
+            method: 'POST',
+            qs: {
+                token: this._token,
+                endTime: timeId
+            }
+        })
+    }
     leave(reserveId) {
         // TODO Return payload.message
         // CheckIn again to get rid of this status
