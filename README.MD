@@ -27,6 +27,15 @@ Checkout more [examples](https://github.com/SpartaEN/leo-library-api/tree/master
 
 Checkout [docs](https://github.com/SpartaEN/leo-library-api/tree/master/docs/HMAC-Signature.MD);
 
+## Reservation status list
+
+- COMPLETE
+- STOP
+- CANCEL
+- LEAVE
+- RESERVE
+- CHECK_IN
+
 ## LICENSE
 ```
 Copyright (C) 2020, Sparta_EN<nya@sparta-en.org>
