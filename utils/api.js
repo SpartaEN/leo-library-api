@@ -49,6 +49,27 @@ class API {
         this._address = address;
         this._token = '';
     }
+    set username(username) {
+        this._username = username;
+        this._token = '';
+    }
+    set password(password) {
+        this._password = password;
+        this._token = '';
+    }
+    set address(address) {
+        this._address = address;
+        this._token = '';
+    }
+    get username() {
+        return this._username;
+    }
+    get password() {
+        return this._password;
+    }
+    get address() {
+        return this._address;
+    }
     request(options) {
         return new Promise((resolve, reject) => {
             request({
