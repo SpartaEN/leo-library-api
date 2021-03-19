@@ -1,2 +1,4 @@
 1. Error handing should return code if presents
 2. Documentation
+3. Find another http client implementation which can disable tls SNI verification on specified request to avoid security risks
+4. types.d
