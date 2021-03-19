@@ -9,15 +9,15 @@ Please **DO NOT** use for auto reservation. Please respect who get up early to r
 ## Usage
 
 ```js
-const API = require('./index');
+const API = require("./index");
 (async () => {
-let api = new API('username', 'password', 'https://link/to/the/app');
-try {
+  let api = new API("username", "password", "https://link/to/the/app");
+  try {
     await api.login();
     console.log(await api.getHistory());
-} catch(e) {
+  } catch (e) {
     console.log(e.message);
-}
+  }
 })();
 ```
 
@@ -37,8 +37,9 @@ Checkout [docs](https://github.com/SpartaEN/leo-library-api/tree/master/docs/HMA
 - CHECK_IN
 
 ## LICENSE
+
 ```
-Copyright (C) 2020, Sparta_EN<nya@sparta-en.org>
+Copyright (C) 2020-2021, Sparta_EN<nya@sparta-en.org>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -51,5 +52,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>. 
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```

@@ -1,7 +1,7 @@
 /*
  * index.js - Entry point
  *
- * Copyright (C) 2020, Sparta_EN<nya@sparta-en.org>
+ * Copyright (C) 2020-2021, Sparta_EN<nya@sparta-en.org>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
